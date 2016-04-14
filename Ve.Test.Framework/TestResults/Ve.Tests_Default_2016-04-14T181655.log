@@ -1,0 +1,51 @@
+﻿VS filter: testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+one+product+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well | testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Product+discount+displayed+on+category+page+is+applied+to+product+page+as+well | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Increase+quantity+of+products | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Remove+the+product+from+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+same+product+to+the+basket
+Discovering target: Default
+Discovering tests from assembly: C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Tests\bin\Debug\Ve.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Ve.Tests/Default - 
+#1: Default - 
+#2: Ve.Tests - 
+#3: SaleItems - 
+#6: Quantity and price of the shopping cart items - 
+#4: Product discount displayed on category page is applied to product page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Product+discount+displayed+on+category+page+is+applied+to+product+page+as+well
+#5: Discount displayed on product page is applied on basket page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well
+#7: Add one product to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+one+product+to+the+basket
+#8: Increase quantity of products - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Increase+quantity+of+products
+#9: Remove the product from basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Remove+the+product+from+basket
+#10: Add many products to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket
+#11: Add same product to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+same+product+to+the+basket
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for Ve.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\raluca.nanea\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I navigate to Sale category page
+T:done: SalesSteps.WhenINavigateToSaleCategoryPage() (3.4s)
+B:When I select a product with discount
+T:done: SalesSteps.WhenISelectAProductWithDiscount() (0.9s)
+B:Then the same product discount is displayed on product page
+T:error: Site.Page<Product>().GetSalePrice()
+T:    should be
+T:"147.50"
+T:    but was
+T:"295.00"
+T:    difference
+T:Difference     |  |    |    |         |        
+T:               | \|/  \|/  \|/       \|/       
+T:Index          | 0    1    2    3    4    5    
+T:Expected Value | 1    4    7    .    5    0    
+T:Actual Value   | 2    9    5    .    0    0    
+T:Expected Code  | 49   52   55   46   53   48   
+T:Actual Code    | 50   57   53   46   48   48   
+Scheduler: dequeuing a rescheduled item: 4
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 32.0431535 seconds
+Test #4/1 is started on thread #0
+B:Given I navigate to Sale category page
+T:done: SalesSteps.WhenINavigateToSaleCategoryPage() (3.0s)
+B:When I select a pr

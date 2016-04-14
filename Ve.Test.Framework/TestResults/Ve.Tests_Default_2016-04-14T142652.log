@@ -1,0 +1,31 @@
+﻿VS filter: testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well
+Discovering target: Default
+Discovering tests from assembly: c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Tests\bin\Debug\Ve.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Ve.Tests/Default - 
+#1: Default - 
+#2: Ve.Tests - 
+#3: SaleItems - 
+#5: Discount displayed on product page is applied on basket page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well
+End: Test Suite Dump -- X
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Thread #0: creating new test thread executor for Ve.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\raluca.nanea\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #5/0 is started on thread #0
+B:Given I navigate to a product page with sale item on it
+T:done: SalesSteps.GivenINavigateToAProductPageWithSaleItemOnIt() (11.0s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (18.7s)
+B:Then the basket reflects the correct quantity and price of the item/s added to it
+T:done: BasketSteps.ThenTheBasketReflectsTheCorrectQuantityAndPriceOfTheItemSAddedToIt() (12.1s)
+Test #5 is finished on thread #0 as Succeeded within 57.3327002 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

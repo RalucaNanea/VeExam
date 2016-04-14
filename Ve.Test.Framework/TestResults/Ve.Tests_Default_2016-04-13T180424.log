@@ -1,0 +1,35 @@
+﻿VS filter: testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket+-+Total+basket+value+is+updated
+Discovering target: Default
+Discovering tests from assembly: c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Tests\bin\Debug\Ve.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Ve.Tests/Default - 
+#1: Default - 
+#2: Ve.Tests - 
+#3: Quantity and price of the shopping cart items - 
+#7: Add many products to the basket - Total basket value is updated - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket+-+Total+basket+value+is+updated
+End: Test Suite Dump -- X
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Thread #0: creating new test thread executor for Ve.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\raluca.nanea\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #7/0 is started on thread #0
+B:Given I navigate to Clerkenwell website
+T:done: BasketSteps.GivenINavigateToClerkenwellWebsite() (7.9s)
+B:And I navigate further to a product page
+T:done: BasketSteps.GivenINavigateFurtherToAProductPage() (4.8s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (2.3s)
+B:When I add a different product to the basket
+T:done: BasketSteps.WhenIAddADifferentProductToTheBasket() (21.7s)
+B:Then the basket reflects the correct quantity and price of the item/s added to it
+T:done: BasketSteps.ThenTheBasketReflectsTheCorrectQuantityAndPriceOfTheItemSAddedToIt() (48.3s)
+Test #7 is finished on thread #0 as Succeeded within 94.8331992 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

@@ -1,0 +1,59 @@
+﻿VS filter: testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+one+product+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well | testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Product+discount+displayed+on+category+page+is+applied+to+product+page+as+well | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Increase+quantity+of+products | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Remove+the+product+from+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+same+product+to+the+basket
+Discovering target: Default
+Discovering tests from assembly: C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Tests\bin\Debug\Ve.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Ve.Tests/Default - 
+#1: Default - 
+#2: Ve.Tests - 
+#3: SaleItems - 
+#6: Quantity and price of the shopping cart items - 
+#4: Discount displayed on product page is applied on basket page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well
+#5: Product discount displayed on category page is applied to product page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Product+discount+displayed+on+category+page+is+applied+to+product+page+as+well
+#7: Increase quantity of products - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Increase+quantity+of+products
+#8: Add one product to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+one+product+to+the+basket
+#9: Remove the product from basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Remove+the+product+from+basket
+#10: Add many products to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket
+#11: Add same product to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+same+product+to+the+basket
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #-1
+Test #4/0 is started on thread #-1
+Test #4 is finished on thread #-1 as Ignored within 0 seconds
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #-1
+Test #5/0 is started on thread #-1
+Test #5 is finished on thread #-1 as Ignored within 0 seconds
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #-1
+Test #7/0 is started on thread #-1
+Test #7 is finished on thread #-1 as Ignored within 0 seconds
+Scheduler: considering #8 for thread #0
+Scheduler: using #8 for thread #0
+Test #8 is scheduled for thread #-1
+Test #8/0 is started on thread #-1
+Test #8 is finished on thread #-1 as Ignored within 0 seconds
+Scheduler: considering #9 for thread #0
+Scheduler: using #9 for thread #0
+Test #9 is scheduled for thread #-1
+Test #9/0 is started on thread #-1
+Test #9 is finished on thread #-1 as Ignored within 0 seconds
+Scheduler: considering #10 for thread #0
+Scheduler: using #10 for thread #0
+Test #10 is scheduled for thread #-1
+Test #10/0 is started on thread #-1
+Test #10 is finished on thread #-1 as Ignored within 0 seconds
+Scheduler: considering #11 for thread #0
+Scheduler: using #11 for thread #0
+Test #11 is scheduled for thread #-1
+Test #11/0 is started on thread #-1
+Test #11 is finished on thread #-1 as Ignored within 0 seconds
+Total: 7
+Succeeded: 0
+Ignored: 7
+Pending: 0
+Skipped: 0
+Failed: 0

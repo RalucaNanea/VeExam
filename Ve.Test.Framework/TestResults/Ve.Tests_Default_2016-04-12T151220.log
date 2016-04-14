@@ -1,0 +1,13 @@
+﻿VS filter: testpath:SpecRun Evaluation.Execution delay for SpecRun evaluation mode
+Discovering target: Default
+Discovering tests from assembly: c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Tests\bin\Debug\Ve.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Ve.Tests/Default - 
+End: Test Suite Dump -- X
+Total: 0
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

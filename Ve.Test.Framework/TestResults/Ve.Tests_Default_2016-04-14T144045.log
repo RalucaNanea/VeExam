@@ -1,0 +1,191 @@
+﻿VS filter: testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+same+product+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+one+product+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Remove+the+product+from+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Increase+quantity+of+products | testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Product+discount+displayed+on+category+page+is+applied+to+product+page+as+well | testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well
+Discovering target: Default
+Discovering tests from assembly: c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Tests\bin\Debug\Ve.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Ve.Tests/Default - 
+#1: Default - 
+#2: Ve.Tests - 
+#3: SaleItems - 
+#6: Quantity and price of the shopping cart items - 
+#4: Product discount displayed on category page is applied to product page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Product+discount+displayed+on+category+page+is+applied+to+product+page+as+well
+#5: Discount displayed on product page is applied on basket page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well
+#7: Add one product to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+one+product+to+the+basket
+#8: Increase quantity of products - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Increase+quantity+of+products
+#9: Remove the product from basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Remove+the+product+from+basket
+#10: Add many products to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket
+#11: Add same product to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+same+product+to+the+basket
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for Ve.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\raluca.nanea\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I navigate to Sale category page
+T:done: SalesSteps.WhenINavigateToSaleCategoryPage() (3.3s)
+B:When I select a product with discount
+T:done: SalesSteps.WhenISelectAProductWithDiscount() (0.6s)
+B:Then the same product discount is displayed on product page
+T:error: Site.Page<Product>().GetSalePrice()
+T:    should be
+T:"147.50"
+T:    but was
+T:"295.00"
+T:    difference
+T:Difference     |  |    |    |         |        
+T:               | \|/  \|/  \|/       \|/       
+T:Index          | 0    1    2    3    4    5    
+T:Expected Value | 1    4    7    .    5    0    
+T:Actual Value   | 2    9    5    .    0    0    
+T:Expected Code  | 49   52   55   46   53   48   
+T:Actual Code    | 50   57   53   46   48   48   
+Scheduler: dequeuing a rescheduled item: 4
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 18.8753424 seconds
+Test #4/1 is started on thread #0
+B:Given I navigate to Sale category page
+T:done: SalesSteps.WhenINavigateToSaleCategoryPage() (2.0s)
+B:When I select a product with discount
+T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+T:   --- End of inner exception stack trace ---
+T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+T:   at System.Net.HttpWebRequest.GetRequestStream()
+T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Firefox.FirefoxDriverCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+B:Then the same product discount is displayed on product page
+T:skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 4
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 8.0233946 seconds
+Test #4/2 is started on thread #0
+B:Given I navigate to Sale category page
+T:done: SalesSteps.WhenINavigateToSaleCategoryPage() (2.0s)
+B:When I select a product with discount
+T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+T:   --- End of inner exception stack trace ---
+T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+T:   at System.Net.HttpWebRequest.GetRequestStream()
+T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Firefox.FirefoxDriverCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+B:Then the same product discount is displayed on product page
+T:skipped because of previous errors
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 8.0481381 seconds
+Test #5/0 is started on thread #0
+B:Given I navigate to a product page with sale item on it
+T:done: SalesSteps.GivenINavigateToAProductPageWithSaleItemOnIt() (4.0s)
+B:When I add the current product to the basket
+T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+T:   --- End of inner exception stack trace ---
+T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+T:   at System.Net.HttpWebRequest.GetRequestStream()
+T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Firefox.FirefoxDriverCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+B:Then the basket reflects the correct quantity and price of the item/s added to it
+T:skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 5
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #5 is finished on thread #0 as Failed within 10.0770738 seconds
+Test #5/1 is started on thread #0
+B:Given I navigate to a product page with sale item on it
+T:done: SalesSteps.GivenINavigateToAProductPageWithSaleItemOnIt() (4.0s)
+B:When I add the current product to the basket
+T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+T:   --- End of inner exception stack trace ---
+T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+T:   at System.Net.HttpWebRequest.GetRequestStream()
+T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Firefox.FirefoxDriverCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+B:Then the basket reflects the correct quantity and price of the item/s added to it
+T:skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 5
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #5 is finished on thread #0 as Failed within 10.024923 seconds
+Test #5/2 is started on thread #0
+B:Given I navigate to a product page with sale item on it
+T:done: SalesSteps.GivenINavigateToAProductPageWithSaleItemOnIt() (4.0s)
+B:When I add the current product to the basket
+T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+T:   --- End of inner exception stack trace ---
+T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+T:   at System.Net.HttpWebRequest.GetRequestStream()
+T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Firefox.FirefoxDriverCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+B:Then the basket reflects the correct quantity and price of the item/s added to it
+T:skipped because of previous errors
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Test #5 is finished on thread #0 as Failed within 10.0228925 seconds
+Test #7/0 is started on thread #0
+B:Given I navigate to Clerkenwell website
+T:done: BasketSteps.GivenINavigateToClerkenwellWebsite() (2.0s)
+B:And I navigate further to a product page
+T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+T:   --- End of inner exception stack trace ---
+T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+T:   at System.Net.HttpWebRequest.GetRequestStream()
+T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Firefox.FirefoxDriverCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+B:When I add the current product to the basket
+T:skipped because of previous errors
+B:Then the basket reflects the correct quantity and price of the item/s added to it
+T:skipped because of previous errors
+Cancelling because configured number of failures reached
+Test #7 is finished on thread #0 as Failed within 8.0550586 seconds
+Appdomain Disposed
+Scheduler: considering #8 for thread #-1
+Scheduler: using #8 for thread #-1
+Test #8 is scheduled for thread #-1
+Test #8/0 is started on thread #-1
+Test #8 is finished on thread #-1 as Skipped within 0 seconds
+Scheduler: considering #9 for thread #-1
+Scheduler: using #9 for thread #-1
+Test #9 is scheduled for thread #-1
+Test #9/0 is started on thread #-1
+Test #9 is finished on thread #-1 as Skipped within 0 seconds
+Scheduler: considering #10 for thread #-1
+Scheduler: using #10 for thread #-1
+Test #10 is scheduled for thread #-1
+Test #10/0 is started on thread #-1
+Test #10 is finished on thread #-1 as Skipped within 0 seconds
+Scheduler: considering #11 for thread #-1
+Scheduler: using #11 for thread #-1
+Test #11 is scheduled for thread #-1
+Test #11/0 is started on thread #-1
+Test #11 is finished on thread #-1 as Skipped within 0 seconds
+Total: 7 (test executions: 11)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 4
+Failed: 3

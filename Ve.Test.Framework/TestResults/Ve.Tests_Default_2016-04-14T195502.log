@@ -1,0 +1,44 @@
+﻿VS filter: testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+one+product+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well | testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Product+discount+displayed+on+category+page+is+applied+to+product+page+as+well | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Increase+quantity+of+products | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Remove+the+product+from+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+same+product+to+the+basket
+Discovering target: Default
+Discovering tests from assembly: C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Tests\bin\Debug\Ve.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Ve.Tests/Default - 
+#1: Default - 
+#2: Ve.Tests - 
+#3: SaleItems - 
+#6: Quantity and price of the shopping cart items - 
+#4: Discount displayed on product page is applied on basket page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well
+#5: Product discount displayed on category page is applied to product page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Product+discount+displayed+on+category+page+is+applied+to+product+page+as+well
+#7: Increase quantity of products - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Increase+quantity+of+products
+#8: Add one product to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+one+product+to+the+basket
+#9: Remove the product from basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Remove+the+product+from+basket
+#10: Add many products to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket
+#11: Add same product to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+same+product+to+the+basket
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for Ve.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\raluca.nanea\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I navigate to a product page with sale item on it
+T:done: SalesSteps.GivenINavigateToAProductPageWithSaleItemOnIt() (6.1s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (2.2s)
+B:Then the basket reflects the correct quantity and price of the item/s added to it
+T:done: BasketSteps.ThenTheBasketReflectsTheCorrectQuantityAndPriceOfTheItemSAddedToIt() (0.4s)
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #4 is finished on thread #0 as Succeeded within 16.7350661 seconds
+Test #5/0 is started on thread #0
+B:Given I navigate to Sale category page
+T:done: SalesSteps.WhenINavigateToSaleCategoryPage() (0.1s)
+B:When I select a product with discount
+T:error: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.)
+B:Then the same product discount is displayed on product page
+T:skipped because of previous errors
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is sched

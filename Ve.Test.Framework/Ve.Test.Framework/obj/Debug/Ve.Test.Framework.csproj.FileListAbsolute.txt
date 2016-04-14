@@ -1,0 +1,29 @@
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\Ve.Test.Framework.dll.config
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\Ve.Test.Framework.dll
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\Ve.Test.Framework.pdb
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\nunit.framework.dll
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\Shouldly.dll
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\TechTalk.SpecFlow.dll
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\WebDriver.dll
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\WebDriver.Support.dll
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\nunit.framework.xml
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\Shouldly.pdb
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\WebDriver.xml
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\bin\Debug\WebDriver.Support.xml
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\obj\Debug\Ve.Test.Framework.dll
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\obj\Debug\Ve.Test.Framework.pdb
+c:\users\raluca.nanea\documents\visual studio 2013\Projects\Ve.Test.Framework\Ve.Test.Framework\obj\Debug\Ve.Test.Framework.csprojResolveAssemblyReference.cache
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\Ve.Test.Framework.dll.config
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\Ve.Test.Framework.dll
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\Ve.Test.Framework.pdb
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\nunit.framework.dll
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\Shouldly.dll
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\WebDriver.dll
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\WebDriver.Support.dll
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\nunit.framework.xml
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\Shouldly.pdb
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\WebDriver.xml
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\bin\Debug\WebDriver.Support.xml
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\obj\Debug\Ve.Test.Framework.dll
+C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Test.Framework\obj\Debug\Ve.Test.Framework.pdb

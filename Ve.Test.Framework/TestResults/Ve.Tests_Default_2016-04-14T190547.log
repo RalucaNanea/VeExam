@@ -1,0 +1,226 @@
+﻿VS filter: testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+one+product+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well | testpath:TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Product+discount+displayed+on+category+page+is+applied+to+product+page+as+well | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Increase+quantity+of+products | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Remove+the+product+from+basket | testpath:TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+same+product+to+the+basket
+Discovering target: Default
+Discovering tests from assembly: C:\Users\raluca.nanea\Documents\Visual Studio 2013\Projects\Ve.Test.Framework - Copy\Ve.Tests\bin\Debug\Ve.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Ve.Tests/Default - 
+#1: Default - 
+#2: Ve.Tests - 
+#3: SaleItems - 
+#6: Quantity and price of the shopping cart items - 
+#4: Product discount displayed on category page is applied to product page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Product+discount+displayed+on+category+page+is+applied+to+product+page+as+well
+#5: Discount displayed on product page is applied on basket page as well - TestAssembly:Ve.Tests/Feature:SaleItems/Scenario:Discount+displayed+on+product+page+is+applied+on+basket+page+as+well
+#7: Increase quantity of products - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Increase+quantity+of+products
+#8: Add one product to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+one+product+to+the+basket
+#9: Remove the product from basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Remove+the+product+from+basket
+#10: Add many products to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+many+products+to+the+basket
+#11: Add same product to the basket - TestAssembly:Ve.Tests/Feature:Quantity+and+price+of+the+shopping+cart+items/Scenario:Add+same+product+to+the+basket
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for Ve.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\raluca.nanea\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I navigate to Sale category page
+T:done: SalesSteps.WhenINavigateToSaleCategoryPage() (2.8s)
+B:When I select a product with discount
+T:done: SalesSteps.WhenISelectAProductWithDiscount() (0.8s)
+B:Then the same product discount is displayed on product page
+T:error: Site.Page<Product>().GetSalePrice()
+T:    should be
+T:"147.50"
+T:    but was
+T:"295.00"
+T:    difference
+T:Difference     |  |    |    |         |        
+T:               | \|/  \|/  \|/       \|/       
+T:Index          | 0    1    2    3    4    5    
+T:Expected Value | 1    4    7    .    5    0    
+T:Actual Value   | 2    9    5    .    0    0    
+T:Expected Code  | 49   52   55   46   53   48   
+T:Actual Code    | 50   57   53   46   48   48   
+Scheduler: dequeuing a rescheduled item: 4
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 14.3842642 seconds
+Test #4/1 is started on thread #0
+B:Given I navigate to Sale category page
+T:done: SalesSteps.WhenINavigateToSaleCategoryPage() (1.5s)
+B:When I select a product with discount
+T:done: SalesSteps.WhenISelectAProductWithDiscount() (0.4s)
+B:Then the same product discount is displayed on product page
+T:error: Site.Page<Product>().GetSalePrice()
+T:    should be
+T:"147.50"
+T:    but was
+T:"295.00"
+T:    difference
+T:Difference     |  |    |    |         |        
+T:               | \|/  \|/  \|/       \|/       
+T:Index          | 0    1    2    3    4    5    
+T:Expected Value | 1    4    7    .    5    0    
+T:Actual Value   | 2    9    5    .    0    0    
+T:Expected Code  | 49   52   55   46   53   48   
+T:Actual Code    | 50   57   53   46   48   48   
+Scheduler: dequeuing a rescheduled item: 4
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 4.2394193 seconds
+Test #4/2 is started on thread #0
+B:Given I navigate to Sale category page
+T:done: SalesSteps.WhenINavigateToSaleCategoryPage() (1.9s)
+B:When I select a product with discount
+T:done: SalesSteps.WhenISelectAProductWithDiscount() (0.5s)
+B:Then the same product discount is displayed on product page
+T:error: Site.Page<Product>().GetSalePrice()
+T:    should be
+T:"147.50"
+T:    but was
+T:"295.00"
+T:    difference
+T:Difference     |  |    |    |         |        
+T:               | \|/  \|/  \|/       \|/       
+T:Index          | 0    1    2    3    4    5    
+T:Expected Value | 1    4    7    .    5    0    
+T:Actual Value   | 2    9    5    .    0    0    
+T:Expected Code  | 49   52   55   46   53   48   
+T:Actual Code    | 50   57   53   46   48   48   
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 4.6875193 seconds
+Test #5/0 is started on thread #0
+B:Given I navigate to a product page with sale item on it
+T:done: SalesSteps.GivenINavigateToAProductPageWithSaleItemOnIt() (4.9s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (2.0s)
+B:Then the basket reflects the correct quantity and price of the item/s added to it
+T:done: BasketSteps.ThenTheBasketReflectsTheCorrectQuantityAndPriceOfTheItemSAddedToIt() (0.3s)
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Test #5 is finished on thread #0 as Succeeded within 7.2473646 seconds
+Test #7/0 is started on thread #0
+B:Given I navigate to Clerkenwell website
+T:done: BasketSteps.GivenINavigateToClerkenwellWebsite() (6.6s)
+B:And I navigate further to a product page
+T:done: BasketSteps.GivenINavigateFurtherToAProductPage() (5.3s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (4.0s)
+B:When I increase the quantity of the existing product
+T:done: BasketSteps.WhenIIncreaseTheQuantityOfTheExistingProduct() (2.3s)
+B:Then the basket is updated with the correct quantity and price
+T:done: BasketSteps.ThenTheBasketIsUpdatedWithTheCorrectQuantityAndPrice() (0.2s)
+Scheduler: considering #8 for thread #0
+Scheduler: using #8 for thread #0
+Test #8 is scheduled for thread #0
+Test #7 is finished on thread #0 as Succeeded within 18.5919744 seconds
+Test #8/0 is started on thread #0
+B:Given I navigate to Clerkenwell website
+T:done: BasketSteps.GivenINavigateToClerkenwellWebsite() (0.3s)
+B:And I navigate further to a product page
+T:done: BasketSteps.GivenINavigateFurtherToAProductPage() (6.4s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (4.0s)
+B:Then the basket reflects the correct quantity and price of the item/s added to it
+T:done: BasketSteps.ThenTheBasketReflectsTheCorrectQuantityAndPriceOfTheItemSAddedToIt() (0.4s)
+Scheduler: considering #9 for thread #0
+Scheduler: using #9 for thread #0
+Test #9 is scheduled for thread #0
+Test #8 is finished on thread #0 as Succeeded within 11.3312228 seconds
+Test #9/0 is started on thread #0
+B:Given I navigate to Clerkenwell website
+T:done: BasketSteps.GivenINavigateToClerkenwellWebsite() (0.2s)
+B:And I navigate further to a product page
+T:done: BasketSteps.GivenINavigateFurtherToAProductPage() (6.5s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (6.3s)
+B:When I remove an existing product from shopping cart
+T:done: BasketSteps.WhenIRemoveAnExistingProductFromShoppingCart() (0.2s)
+B:Then the basket page is empty
+T:done: BasketSteps.ThenTheBasketPageIsEmpty() (1.4s)
+Scheduler: considering #10 for thread #0
+Scheduler: using #10 for thread #0
+Test #10 is scheduled for thread #0
+Test #9 is finished on thread #0 as Succeeded within 14.9047417 seconds
+Test #10/0 is started on thread #0
+B:Given I navigate to Clerkenwell website
+T:done: BasketSteps.GivenINavigateToClerkenwellWebsite() (4.8s)
+B:And I navigate further to a product page
+T:done: BasketSteps.GivenINavigateFurtherToAProductPage() (4.3s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (3.9s)
+B:When I add a different product to the basket
+T:done: BasketSteps.WhenIAddADifferentProductToTheBasket() (6.3s)
+B:Then the basket reflects the correct quantity and price of the item/s added to it
+T:done: BasketSteps.ThenTheBasketReflectsTheCorrectQuantityAndPriceOfTheItemSAddedToIt() (0.6s)
+Scheduler: considering #11 for thread #0
+Scheduler: using #11 for thread #0
+Test #11 is scheduled for thread #0
+Test #10 is finished on thread #0 as Succeeded within 20.0201142 seconds
+Test #11/0 is started on thread #0
+B:Given I navigate to Clerkenwell website
+T:done: BasketSteps.GivenINavigateToClerkenwellWebsite() (0.3s)
+B:And I navigate further to a product page
+T:done: BasketSteps.GivenINavigateFurtherToAProductPage() (7.7s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (4.3s)
+B:When I add same product to the basket
+T:done: BasketSteps.WhenIAddSameProductToTheBasket() (6.4s)
+B:Then the basket contains one product with Quantity equals with 2
+T:error: Site.Page<Basket>()._allBasketProductQuantities.Count
+T:    should be
+T:2
+T:    but was
+T:1
+Scheduler: dequeuing a rescheduled item: 11
+Scheduler: considering #11 for thread #0
+Scheduler: using #11 for thread #0
+Test #11 is scheduled for thread #0
+Test #11 is finished on thread #0 as Failed within 19.0824783 seconds
+Test #11/1 is started on thread #0
+B:Given I navigate to Clerkenwell website
+T:done: BasketSteps.GivenINavigateToClerkenwellWebsite() (0.3s)
+B:And I navigate further to a product page
+T:done: BasketSteps.GivenINavigateFurtherToAProductPage() (7.7s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (4.2s)
+B:When I add same product to the basket
+T:done: BasketSteps.WhenIAddSameProductToTheBasket() (5.8s)
+B:Then the basket contains one product with Quantity equals with 2
+T:error: Site.Page<Basket>()._allBasketProductQuantities.Count
+T:    should be
+T:2
+T:    but was
+T:1
+Scheduler: dequeuing a rescheduled item: 11
+Scheduler: considering #11 for thread #0
+Scheduler: using #11 for thread #0
+Test #11 is scheduled for thread #0
+Test #11 is finished on thread #0 as Failed within 18.4112783 seconds
+Test #11/2 is started on thread #0
+B:Given I navigate to Clerkenwell website
+T:done: BasketSteps.GivenINavigateToClerkenwellWebsite() (0.3s)
+B:And I navigate further to a product page
+T:done: BasketSteps.GivenINavigateFurtherToAProductPage() (7.2s)
+B:When I add the current product to the basket
+T:done: BasketSteps.WhenIAddTheCurrentProductToTheBasket() (4.4s)
+B:When I add same product to the basket
+T:done: BasketSteps.WhenIAddSameProductToTheBasket() (9.0s)
+B:Then the basket contains one product with Quantity equals with 2
+T:error: Site.Page<Basket>()._allBasketProductQuantities.Count
+T:    should be
+T:2
+T:    but was
+T:1
+Test #11 is finished on thread #0 as Failed within 21.2706285 seconds
+Appdomain Disposed
+Total: 7 (test executions: 11)
+Succeeded: 5
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2
